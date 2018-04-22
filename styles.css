@@ -4,6 +4,83 @@
 }
 
 body {
-    background: url(bg3.jpg) no-repeat 50%;
+    background: url(bg4.jpg) no-repeat 50%;
     background-size: cover;
+}
+
+.clock {
+    width:600px;
+    height: 600px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock span {
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background: #FFFFFF;
+}
+
+.clock span:nth-child(1) {
+    height: 50px;
+    width: 2px;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%)
+
+}
+
+.clock span:nth-child(2) {
+    
+}
+
+.clock span:nth-child(3) {
+    
+}
+
+.clock span:nth-child(4) {
+    top:50%;
+    right:14px;
+    transform: translateY(-50%);
+}
+
+.clock span:nth-child(5) {
+    
+}
+
+.clock span:nth-child(6) {
+    
+}
+
+.clock span:nth-child(7) {
+    height: 50px;
+    width: 2px;
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.clock span:nth-child(8) {
+    
+}
+
+.clock span:nth-child(9) {
+    
+}
+
+.clock span:nth-child(10) {
+    top:50%;
+    left:14px;
+    transform: translateY(-50%);
+}
+
+.clock span:nth-child(11) {
+    
+}
+
+.clock span:nth-child(12) {
+    
 }
