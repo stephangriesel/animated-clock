@@ -100,3 +100,75 @@ body {
     top: 78px;
     transform: rotate(60deg);
 }
+
+.c {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.shand {
+    width:120px;
+    height:2px;
+    background: #FFFFFF;
+    position: absolute;
+    top:30px;
+    transform: rotate(-30deg);
+    right:-8px;
+}
+
+.bhand {
+    width:400px;
+    position: absolute;
+    height:2px;
+    left:50%;
+    transform: translate(-50%) rotate(0deg);
+    animation: clock 12s infinite;
+}
+
+.bhand div {
+    width:200px;
+    height:2px;
+    float:left;
+    background: #FFFFFF;
+}
+
+@keyframes clock {
+    7% {
+        transform: translateX(-50%) rotate(30deg);
+    }
+    15% {
+        transform: translateX(-50%) rotate(60deg);
+    }
+    25% {
+        transform: translateX(-50%) rotate(90deg);
+    }
+    34% {
+        transform: translateX(-50%) rotate(120deg);
+    }
+    43% {
+        transform: translateX(-50%) rotate(150deg);
+    }
+    51% {
+        transform: translateX(-50%) rotate(180deg);
+    }
+    60% {
+        transform: translateX(-50%) rotate(210deg);
+    }
+    68% {
+        transform: translateX(-50%) rotate(240deg);
+    }
+    76% {
+        transform: translateX(-50%) rotate(270deg);
+    }
+    84% {
+        transform: translateX(-50%) rotate(300deg);
+    }
+    92% {
+        transform: translateX(-50%) rotate(330deg);
+    }
+    100% {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
