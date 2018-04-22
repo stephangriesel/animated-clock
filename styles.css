@@ -34,11 +34,15 @@ body {
 }
 
 .clock span:nth-child(2) {
-    
+    right:148px;
+    top: 78px;
+    transform: rotate(-60deg);
 }
 
 .clock span:nth-child(3) {
-    
+    right:54px;
+    top: 172px;
+    transform: rotate(-30deg);
 }
 
 .clock span:nth-child(4) {
@@ -48,11 +52,15 @@ body {
 }
 
 .clock span:nth-child(5) {
-    
+    right:54px;
+    bottom: 172px;
+    transform: rotate(30deg);
 }
 
 .clock span:nth-child(6) {
-    
+    right:148px;
+    bottom: 78px;
+    transform: rotate(60deg);
 }
 
 .clock span:nth-child(7) {
@@ -64,11 +72,15 @@ body {
 }
 
 .clock span:nth-child(8) {
-    
+    left:148px;
+    bottom: 78px;
+    transform: rotate(-60deg);
 }
 
 .clock span:nth-child(9) {
-    
+    left:50px;
+    bottom: 170px;
+    transform: rotate(-30deg);
 }
 
 .clock span:nth-child(10) {
@@ -78,9 +90,13 @@ body {
 }
 
 .clock span:nth-child(11) {
-    
+    left:50px;
+    top: 170px;
+    transform: rotate(30deg);
 }
 
 .clock span:nth-child(12) {
-    
+    left:148px;
+    top: 78px;
+    transform: rotate(60deg);
 }
